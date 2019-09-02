@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_busname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus Name" />
+
+        <EditText
+            android:id="@+id/id_busname_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/id_Lice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="License Plate" />
+
+        <EditText
+            android:id="@+id/id_Lice_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/id_make"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make" />
+
+        <EditText
+            android:id="@+id/id_make_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/id_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color" />
+
+        <EditText
+            android:id="@+id/id_color_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/id_create_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

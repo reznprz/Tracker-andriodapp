@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_addbus"
+        android:icon="@drawable/bus"
+        android:title="Add Bus"/>
+
+    <item
+        android:id="@+id/nav_review"
+        android:icon="@drawable/noteic"
+        android:title="review"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic1"
+        android:title="search"
+        />
+
+</menu>
